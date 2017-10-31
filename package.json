@@ -1,5 +1,5 @@
 {
-  "name": "Weather Forcast App",
+  "name": "react-fundamentals-curriculum",
   "version": "1.0.0",
   "description": "Curriculum for React Training's React Fundamentals course.",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ReactjsProgram/react-fundamentals-curriculum.git"
+    "url": "git+https://github.com/matrixb0ss/Weather-Forcast-App"
   },
   "author": "Tyler McGinnis <tylermcginnis33@gmail.com> (http://tylermcginnis.com)",
   "license": "ISC",

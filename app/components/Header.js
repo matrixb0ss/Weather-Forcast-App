@@ -10,7 +10,6 @@ class Header extends React.Component {
             <Input
               direction='row'
               onSubmit={function(){}}
-              onUpdate={function(){}}
               zipcode={123}
             />
         </div>

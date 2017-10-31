@@ -5,14 +5,26 @@ class Input extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      //zipcode: 90210
+      zipcode: ''
     };
+
+    this.handleSubmitInput = this.handleSubmitInput.bind(this);
+    this.handleUpdateInput = this.handleUpdateInput.bind(this);
   }
+
   handleSubmitInput () {
-
+    api.getCurrentWeather(this.state.zipcode)
+      .then((res) => {
+        comsole.log(res)
+      })
   }
-  handleUpdateInput () {
-
+  handleUpdateInput (e) {
+    var zip = e.target.value;
+    this.setState(() => {
+      return {
+        zipcode : zip
+      }
+    });
   }
 
   render() {

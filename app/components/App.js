@@ -11,7 +11,6 @@ class App extends React.Component {
           <h1 className='header'>Enter a City and State</h1>
           <Input
             onSubmit={function(){}}
-            onUpdate={function(){}}
             zipcode={123}
           />
         </div>
